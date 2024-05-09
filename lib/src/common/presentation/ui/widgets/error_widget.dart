@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ebook_app/src/common/common.dart';
+import 'package:readify/src/common/common.dart';
 
 class MyErrorWidget extends StatelessWidget {
   final VoidCallback refreshCallBack;

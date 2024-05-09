@@ -1,4 +1,4 @@
-package dev.jideguru.flutter_ebook_app
+package dev.jideguru.readify
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -3,8 +3,8 @@ import 'dart:io';
 import 'package:auto_route/auto_route.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_ebook_app/src/common/common.dart';
-import 'package:flutter_ebook_app/src/features/features.dart';
+import 'package:readify/src/common/common.dart';
+import 'package:readify/src/features/features.dart';
 import 'package:flutter_icons/flutter_icons.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iridium_reader_widget/views/viewers/epub_screen.dart';
@@ -50,7 +50,7 @@ class _BookDetailsScreenState extends ConsumerState<BookDetailsScreen> {
                 orElse: () => const SizedBox.shrink(),
                 data: (favorites) {
                   final favorited = favorites.indexWhere(
-                        (element) => element.id!.t == widget.entry.id!.t,
+                        (element) => element?.id!.t == widget.entry.id!.t,
                       ) !=
                       -1;
                   return IconButton(

@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_ebook_app/src/common/common.dart';
+import 'package:readify/src/common/common.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'current_app_theme_notifier.g.dart';
