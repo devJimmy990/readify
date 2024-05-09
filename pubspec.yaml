@@ -1,0 +1,56 @@
+name: flutter_ebook_app
+description: A Flutter app for eBooks
+
+version: 1.0.4+8
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  auto_route:
+  cached_network_image:
+  cupertino_icons:
+  dio:
+  flutter:
+    sdk: flutter
+  flutter_icons:
+    git: https://github.com/jibiel/flutter-icons
+  flutter_web_plugins:
+    sdk: flutter
+  flutter_riverpod:
+  flutter_spinkit:
+  freezed_annotation:
+  google_fonts:
+  iridium_reader_widget:
+    path: ./packages/iridium/reader_widget
+  logman:
+  path:
+  path_provider:
+  permission_handler:
+  riverpod_annotation:
+  sembast:
+  sembast_web:
+  share_plus:
+  shared_preferences:
+  uuid:
+  xml2json:
+
+dependency_overrides:
+  collection: ^1.17.2
+  flutter_inappwebview: ^5.8.0
+
+dev_dependencies:
+  auto_route_generator: ^7.1.1
+  build_runner: ^2.4.5
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.4
+  freezed: ^2.3.4
+  riverpod_generator: ^2.2.3
+  lint: ^2.1.2
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
